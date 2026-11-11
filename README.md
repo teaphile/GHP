@@ -14,21 +14,6 @@ Trending, most-starred and category-wise public repositories on GitHub, in one c
 - Saved repositories (bookmarks)
 - Dark mode, shareable view links, auto-refresh every 5 minutes
 
-## Run locally
-
-```bash
-python -m http.server 8000
-```
-
-Open http://localhost:8000
-
-## Deploy on GitHub Pages
-
-1. Push this repo to GitHub (branch: `main`)
-2. Settings > Pages
-3. Source: `Deploy from a branch`, Branch: `main`, folder: `/ (root)`
-4. Live at: `https://YOUR-USERNAME.github.io/REPO-NAME/`
-
 ## GitHub token (optional)
 
 Without a token the API limit is 10 search requests per minute. Add a free token using the Token button in the app to increase it. The token stays in your browser only.
