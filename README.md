@@ -29,8 +29,6 @@ Open http://localhost:8000
 3. Source: `Deploy from a branch`, Branch: `main`, folder: `/ (root)`
 4. Live at: `https://YOUR-USERNAME.github.io/REPO-NAME/`
 
-Auto-deploy workflow is included in `.github/workflows/pages.yml`.
-
 ## GitHub token (optional)
 
 Without a token the API limit is 10 search requests per minute. Add a free token using the Token button in the app to increase it. The token stays in your browser only.
@@ -43,5 +41,4 @@ github-pulse/
 ├── css/style.css
 ├── js/app.js
 ├── README.md
-└── .github/workflows/pages.yml
 ```
